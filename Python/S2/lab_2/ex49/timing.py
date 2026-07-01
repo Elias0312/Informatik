@@ -10,4 +10,4 @@ class StopWatch:
     def reset(self):
         self.start = time.perf_counter()
 
-    
+    "lol"

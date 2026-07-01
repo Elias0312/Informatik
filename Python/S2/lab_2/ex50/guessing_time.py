@@ -4,7 +4,7 @@ import random
 number = random.randint(10, 20)
 
 print(f"the time to guess is {number} sec!")
-input("Ready? Push any key to start the timer! ")
+input("Ready? Press the [Enter] key to start and stop the timer! ")
 watch = StopWatch()
 input()
 elapsed = watch.elapsed()
